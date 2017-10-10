@@ -1,7 +1,7 @@
 #! /bin/bash
 
 SELF=`readlink -f "$0"`
-WORKDIR=`dirname "$SELF"`
+WORKDIR=`dirname "rebar"`
 
 cd "$WORKDIR"
 
